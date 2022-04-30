@@ -178,13 +178,22 @@ button:hover {
     }
     .right {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
     }
     .top > p {
         padding: 5px;
+        font-size: 18px;
     }
     .inputflex > div {
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .bot > button {
+        margin: 10px;
         width: auto;
+    }
+    .bot > p {
+        margin-top: 0;
     }
 }
 
